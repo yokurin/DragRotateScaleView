@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DragRotateScaleView_Example' do
+  pod 'DragRotateScaleView', :path => '../'
+
+  target 'DragRotateScaleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
