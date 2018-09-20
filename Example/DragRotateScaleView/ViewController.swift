@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import DragRotateScaleView
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+
+    lazy var rect1: DragRotateScaleView = {
+        let v = DragRotateScaleView(frame: CGRect(x: 20, y: 100, width: 200, height: 200))
+        v.delegate = self
+        v.backgroundColor = UIColor.cyan
+        return v
+    }()
+
+    lazy var rect2: DragRotateScaleView = {
+        let v = DragRotateScaleView(frame: CGRect(x: 100, y: 400, width: 100, height: 200))
+        v.delegate = self
+        v.backgroundColor = UIColor.red
+        return v
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(rect1)
+        view.addSubview(rect2)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
+extension ViewController: DragRotateScaleViewDelegate {
+    func doubleTapGesture(_ sender: UITapGestureRecognizer, view: DragRotateScaleView) {
+        view.rotated(by: CGFloat.pi / 4)
+    }
+}

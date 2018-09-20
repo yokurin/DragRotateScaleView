@@ -1,0 +1,6 @@
+framework module DragRotateScaleView {
+  umbrella header "DragRotateScaleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

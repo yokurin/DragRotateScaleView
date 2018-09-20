@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* DragRotateScaleView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragRotateScaleView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		66E146F2D7CF196D6CD752E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		66E146F2D7CF196D6CD752E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7C778F6A04F4FE057A26E9F7 /* Pods_DragRotateScaleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragRotateScaleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		810565406951181C36DB81DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		810565406951181C36DB81DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA5D532E7CBF5797F0A7A06F /* Pods-DragRotateScaleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragRotateScaleView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragRotateScaleView_Example/Pods-DragRotateScaleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4A0653D96A792177E550368 /* Pods-DragRotateScaleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragRotateScaleView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragRotateScaleView_Example/Pods-DragRotateScaleView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF388EC9AB3015BA061436A4 /* DragRotateScaleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DragRotateScaleView.podspec; path = ../DragRotateScaleView.podspec; sourceTree = "<group>"; };
+		EF388EC9AB3015BA061436A4 /* DragRotateScaleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DragRotateScaleView.podspec; path = ../DragRotateScaleView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

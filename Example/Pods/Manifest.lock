@@ -1,0 +1,16 @@
+PODS:
+  - DragRotateScaleView (0.1.0)
+
+DEPENDENCIES:
+  - DragRotateScaleView (from `../`)
+
+EXTERNAL SOURCES:
+  DragRotateScaleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DragRotateScaleView: 9aa0be7058d0fdcb607dfe4e8d9975ac3e6d3764
+
+PODFILE CHECKSUM: c5a879a804337b7b2fe7654f50a9517287354631
+
+COCOAPODS: 1.5.3
