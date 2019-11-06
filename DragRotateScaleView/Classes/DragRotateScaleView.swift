@@ -79,7 +79,7 @@ public class DragRotateScaleView: UIView {
     }
 
     private func moveToFront() {
-        superview?.bringSubview(toFront: self)
+        superview?.bringSubviewToFront(self)
     }
 
     public func rotated(by deg: CGFloat) {
