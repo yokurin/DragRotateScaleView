@@ -6,6 +6,5 @@ target 'DragRotateScaleView_Example' do
   target 'DragRotateScaleView_Tests' do
     inherit! :search_paths
 
-    
   end
 end
